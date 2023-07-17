@@ -1,17 +1,21 @@
-* {
+/* * {
     border: 1px solid red;
-}
+} */
 
 body {
     font-family: Arial, Helvetica, sans-serif;
+    color: #403f3f;
+}
+
+main {
+    text-align: center;
 }
 
 strong {
-color: white;
-background: red;
+background: #fcf5b8;
 }
 
 span {
-    color: rgba(255, 000, 000, 100%);
+    color: #427a5b;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
