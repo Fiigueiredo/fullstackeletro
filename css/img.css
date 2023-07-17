@@ -1,0 +1,16 @@
+img {
+    align-self: centercenter;
+}
+
+#logo {
+    width: 100px;
+    padding: 1%;
+}
+
+.payment {
+    width: 400px;
+}
+
+#img_main {
+    width: 100%;
+}

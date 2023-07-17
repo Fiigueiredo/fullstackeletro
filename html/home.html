@@ -2,66 +2,65 @@
 <html lang="pt-BR">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/css/estilo.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>Full Stack Eletro</title>
+    <link rel="stylesheet" href="/css/style.css" /> <!-- Estilo de todas as páginas até o momento -->
+
+    <link rel="stylesheet" href="/css/nav.css" /> <!-- Estilo do menu -->
+    
+    <link rel="stylesheet" href="/css/img.css" /> <!-- Estilo das imagens -->
+    
+    <link rel="stylesheet" href="/css/footer.css"> <!-- Estilo do rodapé -->
+
+    <title>Full Stack Eletro</title>
 </head>
 
 <body>
-  <!--Início do menu-->
-  <table width="100%" bgcolor="red">
-    <tr>
-      <td align="center" width="25%">
-        <a href="/html/home.html">
-          <font color="white"><img width="100px" src="/img/logo/logo1-bg.png" alt="" /></font>
-        </a>
-      </td>
-      <td align="center" width="25%">
-        <a href="/html/products.html">
-          <font color="white">Produtos</font>
-        </a>
-      </td>
-      <td align="center" width="25%">
-        <a href="/html/stores.html">
-          <font color="white">Nossas lojas</font>
-        </a>
-      </td>
-      <td align="center" width="25%">
-        <a href="/html/contact.html">
-          <font color="white">Fale conosco</font>
-        </a>
-      </td>
-    </tr>
-  </table>
-  <!--Fim do menu-->
+    <!--Início do menu-->
+    <nav class="menu">
+        <a href="/html/home.html"><img id="logo" src="/img/logo/logo1-bg.png" alt="Logo: Full Stack Eletro" /></a>
+        <a href="/html/product.html">Produtos</a>
+        <a href="/html/store.html">Nossas Lojas</a>
+        <a href="/html/contact.html">Fale conosco</a>
+    </nav>
+    <!--Fim do menu-->
 
-  <h2>
-    <font face="arial">Sejam bem vindo(a)!</font>
-  </h2>
-  <p>
-    Aqui em nossa loja, <strong>programadores tem desconto</strong> nos
-    produtos para sua casa!
-  </p>
+    <main>
 
-  <br><br><br><br><br>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
-  <br><br><br><br><br>
+        <h2>Sejam bem vindo(a)!</h2>
+        <p>
+            Aqui em nossa loja,<strong> programadores tem desconto </strong>nos
+            produtos para sua casa!
+        </p>
 
-  <center>
-    <span>
-      <p>
-        <font face="arial" color="red"><b>Formas de Pagamento:</b></font>
-      </p>
-      <img src="/img/payment methods/payment-method-bg-1.png" alt="Formas de pagamento" width="400px" />
-    </span>
-  </center>
+        <img id="img_main" src="/img/product/household appliances.png" alt="Eletrodomesticos juntos em uma única imagem">
 
-  <center>
-    <font face="arial" size="2">&copy; Recode Pro</font>
-  </center>
+    </main>
+
+    <footer>
+        <section class="footer-top">
+            <!-- <p id="formas_pagamento_text">Formas de Pagamento:</p> -->
+            <img class="payment" src="/img/payment methods/payment-method-bg-1.png" alt="Formas de pagamento" />
+        </section>
+
+        <section class="footer-middle">
+            <p>Copyright &copy; 2021 <span>Recode Pro 2023 | Full Stack Eletro</span> Todos direitos reservados.</span>
+            </p>
+        </section>
+
+        <section class="footer-bottom">
+            <p>
+                Qualquer produto comprado pode ser trocado em até 7 dias após a entrega.
+                Todos os produtos vendidos podem apresentar alterações em sua tonalidade.
+
+                <span>Full Stack Eletro Móveis e Decorações LTDA</span>.
+                Rua Silvia Vasconcelos nº77, Centro, Araruama/RJ, CEP 28970-000. CNPJ 73.914.210/0001-69, IE
+                84486663
+            </p>
+        </section>
+    </footer>
+
 </body>
 
 </html>

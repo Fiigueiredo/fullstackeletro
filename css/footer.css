@@ -1,0 +1,17 @@
+footer {
+    text-align: center;
+}
+
+.footer-top {}
+
+.footer-middle {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+}
+
+.footer-bottom {
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 1px;
+}
