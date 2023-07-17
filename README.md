@@ -1,8 +1,8 @@
 # Full Stack Eletro
 ![Primeira tela](/img/layout/16_07_2023v1.png)
 
-<div align="center"><img width="500px" src="/imagens/logo.svg"><br>
-<em>Programadores tem 30% de desconto em todos os produtos da loja!</em> :satisfied: </div>
+<!-- <div align="center"><img width="500px" src="/imagens/logo.svg"><br>
+<em>Programadores tem 30% de desconto em todos os produtos da loja!</em> :satisfied: </div> -->
 
 
 ## Índice
